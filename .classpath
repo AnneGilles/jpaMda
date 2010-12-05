@@ -1,0 +1,20 @@
+<classpath>
+  <classpathentry kind="src" path="common/generated/src"/>
+  <classpathentry kind="src" path="core/generated/src"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.1/commons-collections-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.1/commons-lang-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/hibernate-annotations/hibernate-annotations/3.2.1.GA/hibernate-annotations-3.2.1.GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jboss/jboss-remoting/2.2.1.GA/jboss-remoting-2.2.1.GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-client/3.2.0-CR2/hibernate-client-3.2.0-CR2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/ejb3-persistence/4.0.5-GA/ejb3-persistence-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-annotations-ejb3/4.0.5-GA/jboss-annotations-ejb3-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-aop-jdk50-client/4.0.5-GA/jboss-aop-jdk50-client-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-aspect-jdk50-client/4.0.5-GA/jboss-aspect-jdk50-client-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-ejb3-client/4.0.5-GA/jboss-ejb3-client-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-ejb3x/4.0.5-GA/jboss-ejb3x-4.0.5-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jboss/jboss-j2ee/4.0.5-GA/jboss-j2ee-4.0.5-GA.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="target/classes"/>
+</classpath>

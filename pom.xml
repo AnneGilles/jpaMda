@@ -1,0 +1,492 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.codemasters</groupId>
+    <artifactId>testejb3</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>testejb3</name>
+    <description>The testejb3 Project.</description>
+    <scm>
+        <connection></connection>
+        <url></url>
+    </scm>
+    <organization>
+      <name></name>
+      <url></url>
+    </organization>
+    <ciManagement>
+        <system>continuum</system>
+        <notifiers>
+            <notifier>
+                <type>mail</type>
+                <configuration>
+                    <address></address>
+                </configuration>
+            </notifier>
+        </notifiers>
+    </ciManagement>
+    <developers>
+        <developer>
+            <id></id>
+            <name>test</name>
+            <email></email>
+            <organization></organization>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone></timezone>
+        </developer>
+    </developers>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.andromda.profiles.uml2</groupId>
+                <artifactId>andromda-profile</artifactId>
+                <version>3.2</version>
+                <type>xml.zip</type>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.andromda.cartridges</groupId>
+                <artifactId>andromda-ejb3-cartridge</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.andromda.cartridges</groupId>
+                <artifactId>andromda-java-cartridge</artifactId>
+                <version>3.2</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.andromda.translationlibraries</groupId>
+                <artifactId>andromda-ocl-query-library</artifactId>
+                <version>3.2</version>
+                <scope>runtime</scope>
+            </dependency>
+            <!-- This dependency provides the ability to implement your
+                 business logic in an interpreted manner during development on
+                 your local machine -->
+            <dependency>
+                <groupId>org.andromda</groupId>
+                <artifactId>andromda-script-wrappers</artifactId>
+                <version>3.2</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>1.7.0</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.1</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.0.4</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-j2ee</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jbossall-client</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-ejb3-client</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-ejb3x</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>ejb3-persistence</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-annotations-ejb3</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-serialization</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>jboss</groupId>
+                <artifactId>jboss-remoting</artifactId>
+                <version>2.2.1.GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jnp-client</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-aop-jdk50-client</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss</groupId>
+                <artifactId>jboss-aspect-jdk50-client</artifactId>
+                <version>4.0.5-GA</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-client</artifactId>
+                <version>3.2.0-CR2</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>hibernate-annotations</groupId>
+                <artifactId>hibernate-annotations</artifactId>
+                <version>3.2.1.GA</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <defaultGoal>install</defaultGoal>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.andromda.maven.plugins</groupId>
+                    <artifactId>andromda-multi-source-plugin</artifactId>
+                    <version>3.2</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>add-source</goal>
+                            </goals>
+                            <configuration>
+                                <sourceDirectories>
+                                    <directory>generated/src</directory>
+                                </sourceDirectories>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.andromda.maven.plugins</groupId>
+                    <artifactId>andromda-maven-plugin</artifactId>
+                    <version>3.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.andromda.maven.plugins</groupId>
+                    <artifactId>andromdapp-maven-plugin</artifactId>
+                    <version>3.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.5</source>
+                        <target>1.5</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <modules>
+        <module>mda</module>
+        <module>common</module>
+        <module>core</module>
+        <module>app</module>
+    </modules>
+    <properties>
+        <!--
+            Change this to generate to the correct MDA database mappings,
+            For MySql use: MySQL
+            For Hypersonic use: HypersonicSql
+            For Oracle9i use: Oracle9i
+            For DB2 use: DB2
+            For Informix use: InformixDB
+            For MSSQL use: MSSQL
+            For Pointbase use: PointBase
+            For Postgres use: PostgreSQL
+            For Sybase use: Sybase
+            For SapDB use: SapDB
+            For Derby use: Derby
+        -->
+        <sql.mappings>
+            PostgreSQL
+        </sql.mappings>
+        <!--
+            Change this for the appropriate database
+            For MySql use: org.hibernate.dialect.MySQLDialect
+            For MySql InnoDB use: org.hibernate.dialect.MySQLInnoDBDialect
+            For MySql MyISAM use: org.hibernate.dialect.MySQLMyISAMDialect
+            For Hypersonic use: org.hibernate.dialect.HSQLDialect
+            For Oracle any version use: org.hibernate.dialect.OracleDialect
+            For Oracle9i/10g use: org.hibernate.dialect.Oracle9Dialect
+            For DB2 use: org.hibernate.dialect.DB2Dialect
+            For Informix use: org.hibernate.dialect.InformixDialect
+            For MSSQL use: org.hibernate.dialect.SQLServerDialect
+            For Pointbase use: org.hibernate.dialect.PointbaseDialect
+            For Postgres use: org.hibernate.dialect.PostgreSQLDialect
+            For Sybase use: org.hibernate.dialect.SybaseDialect
+            For Sybase Anywhere use: org.hibernate.dialect.SybaseAnywhereDialect
+            For SapDB use: org.hibernate.dialect.SAPDBDialect
+            For Progress use: org.hibernate.dialect.ProgressDialect
+            For Derby use: org.hibernate.dialect.DerbyDialect
+        -->
+        <hibernate.dialect>
+             org.hibernate.dialect.PostgreSQLDialect
+        </hibernate.dialect>
+        <!--
+            Change this to the correct database type mappings (for Jboss)
+            For MySql use: mySQL
+            For Hypersonic use: Hypersonic SQL
+            For Oracle9i use: Oracle9i
+            For DB2 use: DB2
+            For Informix use: InformixDB
+            For MSSQL use: MS SQLSERVER2000
+            For Pointbase use: PointBase
+            For Postgres use: PostgreSQL 7.2
+            For Sybase use: Sybase
+            For SapDB use: SapDB
+            For Derby use: Derby
+        -->
+        <jboss.typeMappings>
+            mPostgreSQL 7.2
+        </jboss.typeMappings>
+        <jboss.home>${env.JBOSS_HOME}</jboss.home>
+        <application.id>testejb3</application.id>
+        <application.package>ru.codemasters</application.package>
+        <application.name>testejb3</application.name>
+        <application.version>1.0-SNAPSHOT</application.version>
+        <dataSource.name>jdbc/${application.id}</dataSource.name>
+        <dataSource>java:/${dataSource.name}</dataSource>
+    </properties>
+    <profiles>
+        <profile>
+            <id>local</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!--
+                    Change driver jar for appropriate database
+                    For MySQL use: mysql-connector-java-X-bin.jar
+                    For Hypersonic use: hsqldb.jar
+                -->
+                <jdbc.driver.jar>${jboss.home}/server/default/lib/postgresql-8.3-603.jdbc4.jar</jdbc.driver.jar>
+                <!--
+                    Change driver for appropriate database
+                    For MySQL use: com.mysql.jdbc.Driver
+                    For Hypersonic use: org.hsqldb.jdbcDriver
+                    For Oracle9i use: oracle.jdbc.driver.OracleDriver
+                    For DB2 use: COM.ibm.db2.jdbc.app.DB2Driver
+                    For Informix use: com.informix.jdbc.IfxDriver
+                    For MSSQL use: com.microsoft.jdbc.sqlserver.SQLServerDriver
+                    For Pointbase use: com.pointbase.jdbc.jdbcUniversalDriver
+                    For Postgres use: org.postgresql.Driver
+                    For Sybase use: com.sybase.jdbc2.jdbc.SybDataSource
+                    For SapDB use: com.sap.dbtech.jdbc.DriverSapDB
+                    For Progress use: com.progress.sql.jdbc.JdbcProgressDriver
+                    For Derby use: org.apache.derby.jdbc.EmbeddedDriver
+                -->
+                <jdbc.driver>
+                    org.postgresql.Driver
+                </jdbc.driver>
+                <!--
+                    Change connection url for appropriate database
+                    For MySQL use: jdbc:mysql://localhost:3306/testejb3
+                    For Hypersonic use: jdbc:hsqldb:hsql://127.0.0.1:1701
+                    For Oracle9i use: jdbc:oracle:thin:@localhost:1521:yoursid
+                    For DB2 use: jdbc:db2:testejb3
+                    For Informix use: jdbc:informix-sqli://localhost:1557/testejb3:INFORMIXSERVER=myserver
+                    For MSSQL use: jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=testejb3
+                    For Pointbase use: jdbc:pointbase:server://@pointbase.server@:@pointbase.port/pointbase.testejb3@,new
+                    For Postgres use: jdbc:postgresql://localhost/testejb3
+                    For Sybase use: jdbc:sybase:Tds:localhost:5000/testejb3?JCONNECT_VERSION=6
+                    For SapDB use: jdbc:sapdb://127.0.0.1/testejb3
+                    For Progress use: jdbc:JdbcProgress:T:localhost:3305:testejb3
+                -->
+                <jdbc.url>
+                    jdbc:postgresql://localhost/shop
+                </jdbc.url>
+                <jdbc.username>postgres</jdbc.username>
+                <jdbc.password>admin</jdbc.password>
+                <!--
+                    Change exception sorder class name for appropriate database
+                    For MySQL use: org.jboss.resource.adapter.jdbc.vendor.MySQLExceptionSorter
+                    For Hypersonic use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Oracle9i use: org.jboss.resource.adapter.jdbc.vendor.OracleExceptionSorter
+                    For DB2 use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Informix use: org.jboss.resource.adapter.jdbc.vendor.InformixExceptionSorter
+                    For MSSQL use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Pointbase use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Postgres use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Sybase use: org.jboss.resource.adapter.jdbc.vendor.SybaseExceptionSorter
+                    For SapDB use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                    For Progress use: org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                -->
+                <jdbc.exception.sorter>
+                    org.jboss.resource.adapter.jdbc.vendor.DummyExceptionSorter
+                </jdbc.exception.sorter>
+            </properties>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.andromda.maven.plugins</groupId>
+                            <artifactId>andromdapp-maven-plugin</artifactId>
+                            <version>3.2</version>
+                            <!-- provides the injection of the script wrapper support into the class files (this should only
+                                 be done when developing locally), uncomment this executions element to enable
+                            <executions>
+                                <execution>
+                                    <id>instrument-scripts</id>
+                                    <goals>
+                                        <goal>instrument-scripts</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                            -->
+                            <configuration>
+                                <scriptWrapper>org.andromda.scriptwrappers.GroovyScriptWrapper</scriptWrapper>
+                                <locations>
+                                    <location>
+                                        <rootPath>${pom.basedir}/src/main/java</rootPath>
+                                        <!-- adjust these to include or exclude specific files, by default
+                                             all files found in the rootPath are considered
+                                        <includes>
+                                            <include>relative/path/to/file/to/include/SomeClass.java</include>
+                                        </includes>
+                                        <excludes>
+                                            <exclude>relative/path/to/file/to/include/SomeClass.java</exclude>
+                                        </excludes>
+                                        -->
+                                    </location>
+                                </locations>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>development</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>dev</value>
+                </property>
+            </activation>
+            <properties>
+                <jdbc.driver.jar></jdbc.driver.jar>
+                <jdbc.driver></jdbc.driver>
+                <jdbc.url></jdbc.url>
+                <jdbc.username></jdbc.username>
+                <jdbc.password></jdbc.password>
+                <jdbc.exception.sorter></jdbc.exception.sorter>
+            </properties>
+        </profile>
+        <profile>
+            <id>validation</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>val</value>
+                </property>
+            </activation>
+            <properties>
+                <jdbc.driver.jar></jdbc.driver.jar>
+                <jdbc.driver></jdbc.driver>
+                <jdbc.url></jdbc.url>
+                <jdbc.username></jdbc.username>
+                <jdbc.password></jdbc.password>
+                <jdbc.exception.sorter></jdbc.exception.sorter>
+            </properties>
+        </profile>
+        <profile>
+            <id>production</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>prod</value>
+                </property>
+            </activation>
+            <properties>
+                <jdbc.driver.jar></jdbc.driver.jar>
+                <jdbc.driver></jdbc.driver>
+                <jdbc.url></jdbc.url>
+                <jdbc.username></jdbc.username>
+                <jdbc.password></jdbc.password>
+                <jdbc.exception.sorter></jdbc.exception.sorter>
+            </properties>
+        </profile>
+    </profiles>
+    <repositories>
+        <repository>
+            <id>andromda</id>
+            <name>AndroMDA Repository</name>
+            <url>http://team.andromda.org/maven2</url>
+        </repository>
+	<repository>
+	    <id>jboss</id>
+	    <name>JBOSS Repository</name>
+	    <url>http://repository.jboss.org/maven2</url>
+	</repository>
+	<repository>
+	      <id>add</id>
+	           <name>JBOSS Repository</name>
+		        <url>http://andromda.org.uk/maven2</url>
+	</repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>andromda</id>
+            <name>AndroMDA Repository</name>
+            <url>http://team.andromda.org/maven2</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <prerequisites>
+        <maven>2.0.1</maven>
+    </prerequisites>
+</project>

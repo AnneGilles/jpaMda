@@ -1,0 +1,468 @@
+INFO  2008-09-15 00:52:48,287 - ************************************************************** 
+INFO  2008-09-15 00:52:48,287 - Starting Jakarta Velocity v1.4
+INFO  2008-09-15 00:52:48,287 - RuntimeInstance initializing.
+INFO  2008-09-15 00:52:48,287 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-15 00:52:48,287 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-15 00:52:48,287 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-15 00:52:48,287 - FileResourceLoader : initialization starting.
+INFO  2008-09-15 00:52:48,287 - FileResourceLoader : adding path '.'
+INFO  2008-09-15 00:52:48,287 - FileResourceLoader : initialization complete.
+INFO  2008-09-15 00:52:48,287 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,287 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-15 00:52:48,287 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-15 00:52:48,287 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-15 00:52:48,287 - Default ResourceManager initialization complete.
+INFO  2008-09-15 00:52:48,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-15 00:52:48,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-15 00:52:48,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-15 00:52:48,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-15 00:52:48,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-15 00:52:48,521 - Created: 20 parsers.
+INFO  2008-09-15 00:52:48,537 - Velocimacro : initialization starting.
+INFO  2008-09-15 00:52:48,537 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 00:52:48,552 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 00:52:48,552 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 00:52:48,552 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 00:52:48,568 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 00:52:48,568 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,568 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 00:52:48,568 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 00:52:48,568 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 00:52:48,568 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 00:52:48,568 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,568 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 00:52:48,568 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-15 00:52:48,568 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-15 00:52:48,568 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-15 00:52:48,568 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-15 00:52:48,568 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-15 00:52:48,568 - Velocimacro : initialization complete.
+INFO  2008-09-15 00:52:48,568 - Velocity successfully started.
+INFO  2008-09-15 00:52:48,708 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,708 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,818 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,849 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,849 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-15 00:52:48,927 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:48,927 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,005 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,005 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-15 00:52:49,020 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,052 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,067 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,083 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,083 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 00:52:49,083 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 00:52:49,098 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 00:52:49,114 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:55,217 - ************************************************************** 
+INFO  2008-09-15 01:04:55,253 - Starting Jakarta Velocity v1.4
+INFO  2008-09-15 01:04:55,253 - RuntimeInstance initializing.
+INFO  2008-09-15 01:04:55,253 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-15 01:04:55,264 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-15 01:04:55,270 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-15 01:04:55,270 - FileResourceLoader : initialization starting.
+INFO  2008-09-15 01:04:55,270 - FileResourceLoader : adding path '.'
+INFO  2008-09-15 01:04:55,271 - FileResourceLoader : initialization complete.
+INFO  2008-09-15 01:04:55,271 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:55,271 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-15 01:04:55,271 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-15 01:04:55,274 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-15 01:04:55,274 - Default ResourceManager initialization complete.
+INFO  2008-09-15 01:04:55,277 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-15 01:04:55,280 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-15 01:04:55,284 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-15 01:04:55,287 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-15 01:04:55,289 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-15 01:04:55,561 - Created: 20 parsers.
+INFO  2008-09-15 01:04:55,566 - Velocimacro : initialization starting.
+INFO  2008-09-15 01:04:55,566 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:04:55,610 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:04:55,631 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:04:55,637 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:04:55,643 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:04:55,674 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:55,674 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 01:04:55,674 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:04:55,689 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:04:55,701 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:04:55,702 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:55,702 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 01:04:55,702 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-15 01:04:55,702 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-15 01:04:55,702 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-15 01:04:55,702 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-15 01:04:55,703 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-15 01:04:55,703 - Velocimacro : initialization complete.
+INFO  2008-09-15 01:04:55,703 - Velocity successfully started.
+INFO  2008-09-15 01:04:55,893 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:55,896 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,228 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,278 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,279 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-15 01:04:56,509 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,511 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,669 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,670 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-15 01:04:56,698 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,782 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,792 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,797 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,810 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 01:04:56,810 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 01:04:56,811 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:04:56,819 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:27,259 - ************************************************************** 
+INFO  2008-09-15 01:12:27,284 - Starting Jakarta Velocity v1.4
+INFO  2008-09-15 01:12:27,285 - RuntimeInstance initializing.
+INFO  2008-09-15 01:12:27,285 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-15 01:12:27,287 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-15 01:12:27,288 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-15 01:12:27,288 - FileResourceLoader : initialization starting.
+INFO  2008-09-15 01:12:27,288 - FileResourceLoader : adding path '.'
+INFO  2008-09-15 01:12:27,288 - FileResourceLoader : initialization complete.
+INFO  2008-09-15 01:12:27,288 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:27,288 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-15 01:12:27,288 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-15 01:12:27,289 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-15 01:12:27,289 - Default ResourceManager initialization complete.
+INFO  2008-09-15 01:12:27,290 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-15 01:12:27,292 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-15 01:12:27,294 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-15 01:12:27,296 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-15 01:12:27,296 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-15 01:12:27,674 - Created: 20 parsers.
+INFO  2008-09-15 01:12:27,678 - Velocimacro : initialization starting.
+INFO  2008-09-15 01:12:27,678 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:12:27,718 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:12:27,723 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:12:27,727 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:12:27,733 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-15 01:12:27,738 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:27,738 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 01:12:27,738 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:12:27,745 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:12:27,758 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-15 01:12:27,759 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:27,759 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-15 01:12:27,759 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-15 01:12:27,759 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-15 01:12:27,759 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-15 01:12:27,759 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-15 01:12:27,759 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-15 01:12:27,759 - Velocimacro : initialization complete.
+INFO  2008-09-15 01:12:27,759 - Velocity successfully started.
+INFO  2008-09-15 01:12:27,876 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:27,877 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,244 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,322 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,323 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-15 01:12:28,441 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,442 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,662 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,662 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-15 01:12:28,684 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,717 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,745 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,759 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,761 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 01:12:28,761 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-15 01:12:28,762 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-15 01:12:28,797 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,310 - ************************************************************** 
+INFO  2008-09-16 23:10:43,310 - Starting Jakarta Velocity v1.4
+INFO  2008-09-16 23:10:43,310 - RuntimeInstance initializing.
+INFO  2008-09-16 23:10:43,310 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-16 23:10:43,310 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-16 23:10:43,310 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-16 23:10:43,310 - FileResourceLoader : initialization starting.
+INFO  2008-09-16 23:10:43,310 - FileResourceLoader : adding path '.'
+INFO  2008-09-16 23:10:43,310 - FileResourceLoader : initialization complete.
+INFO  2008-09-16 23:10:43,310 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,310 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-16 23:10:43,310 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-16 23:10:43,310 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-16 23:10:43,310 - Default ResourceManager initialization complete.
+INFO  2008-09-16 23:10:43,310 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-16 23:10:43,310 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-16 23:10:43,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-16 23:10:43,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-16 23:10:43,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-16 23:10:43,560 - Created: 20 parsers.
+INFO  2008-09-16 23:10:43,560 - Velocimacro : initialization starting.
+INFO  2008-09-16 23:10:43,560 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:10:43,591 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:10:43,591 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:10:43,607 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:10:43,607 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:10:43,607 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,607 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:10:43,607 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:10:43,607 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:10:43,622 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:10:43,622 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,622 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:10:43,622 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-16 23:10:43,622 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-16 23:10:43,622 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-16 23:10:43,622 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-16 23:10:43,622 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-16 23:10:43,622 - Velocimacro : initialization complete.
+INFO  2008-09-16 23:10:43,622 - Velocity successfully started.
+INFO  2008-09-16 23:10:43,716 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,716 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,950 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,965 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:43,965 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:10:44,043 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,043 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,137 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,137 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:10:44,137 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,153 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,168 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,168 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,168 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:10:44,168 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:10:44,168 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:10:44,168 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:29,588 - ************************************************************** 
+INFO  2008-09-16 23:22:29,619 - Starting Jakarta Velocity v1.4
+INFO  2008-09-16 23:22:29,619 - RuntimeInstance initializing.
+INFO  2008-09-16 23:22:29,619 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-16 23:22:29,619 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-16 23:22:29,619 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-16 23:22:29,619 - FileResourceLoader : initialization starting.
+INFO  2008-09-16 23:22:29,619 - FileResourceLoader : adding path '.'
+INFO  2008-09-16 23:22:29,619 - FileResourceLoader : initialization complete.
+INFO  2008-09-16 23:22:29,619 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:29,619 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-16 23:22:29,619 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-16 23:22:29,619 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-16 23:22:29,619 - Default ResourceManager initialization complete.
+INFO  2008-09-16 23:22:29,619 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-16 23:22:29,619 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-16 23:22:29,619 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-16 23:22:29,619 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-16 23:22:29,619 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-16 23:22:29,713 - Created: 20 parsers.
+INFO  2008-09-16 23:22:29,713 - Velocimacro : initialization starting.
+INFO  2008-09-16 23:22:29,713 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:22:29,744 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:22:29,947 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:22:29,947 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:22:29,962 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:22:29,962 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:29,962 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:22:29,962 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:22:29,962 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:22:29,962 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:22:29,962 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:29,962 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:22:29,962 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-16 23:22:29,962 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-16 23:22:29,962 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-16 23:22:29,962 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-16 23:22:29,962 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-16 23:22:29,962 - Velocimacro : initialization complete.
+INFO  2008-09-16 23:22:29,962 - Velocity successfully started.
+INFO  2008-09-16 23:22:30,056 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,056 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,259 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,274 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,274 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:22:30,383 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,383 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,461 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,461 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:22:30,477 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,477 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,493 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,493 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,493 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:22:30,493 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:22:30,493 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:22:30,508 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:04,841 - ************************************************************** 
+INFO  2008-09-16 23:24:04,857 - Starting Jakarta Velocity v1.4
+INFO  2008-09-16 23:24:04,857 - RuntimeInstance initializing.
+INFO  2008-09-16 23:24:04,857 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-16 23:24:04,873 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-16 23:24:04,873 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-16 23:24:04,873 - FileResourceLoader : initialization starting.
+INFO  2008-09-16 23:24:04,873 - FileResourceLoader : adding path '.'
+INFO  2008-09-16 23:24:04,873 - FileResourceLoader : initialization complete.
+INFO  2008-09-16 23:24:04,873 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:04,873 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-16 23:24:04,873 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-16 23:24:04,873 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-16 23:24:04,873 - Default ResourceManager initialization complete.
+INFO  2008-09-16 23:24:04,873 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-16 23:24:04,873 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-16 23:24:04,873 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-16 23:24:04,873 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-16 23:24:04,873 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-16 23:24:04,966 - Created: 20 parsers.
+INFO  2008-09-16 23:24:04,966 - Velocimacro : initialization starting.
+INFO  2008-09-16 23:24:04,966 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:24:05,200 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:24:05,200 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:24:05,216 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:24:05,216 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:24:05,216 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,216 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:24:05,216 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:24:05,231 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:24:05,231 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:24:05,231 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,231 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:24:05,231 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-16 23:24:05,231 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-16 23:24:05,231 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-16 23:24:05,231 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-16 23:24:05,231 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-16 23:24:05,231 - Velocimacro : initialization complete.
+INFO  2008-09-16 23:24:05,231 - Velocity successfully started.
+INFO  2008-09-16 23:24:05,387 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,387 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,668 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,762 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,793 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,793 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:24:05,855 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:24:05,933 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:05,933 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,011 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,105 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,105 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:24:06,121 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:24:06,152 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,199 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,230 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,245 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,245 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:24:06,245 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:24:06,245 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:24:06,261 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:02,365 - ************************************************************** 
+INFO  2008-09-16 23:29:02,365 - Starting Jakarta Velocity v1.4
+INFO  2008-09-16 23:29:02,365 - RuntimeInstance initializing.
+INFO  2008-09-16 23:29:02,365 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-16 23:29:02,380 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-16 23:29:02,380 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-16 23:29:02,380 - FileResourceLoader : initialization starting.
+INFO  2008-09-16 23:29:02,380 - FileResourceLoader : adding path '.'
+INFO  2008-09-16 23:29:02,380 - FileResourceLoader : initialization complete.
+INFO  2008-09-16 23:29:02,380 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:02,380 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-16 23:29:02,380 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-16 23:29:02,380 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-16 23:29:02,380 - Default ResourceManager initialization complete.
+INFO  2008-09-16 23:29:02,380 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-16 23:29:02,380 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-16 23:29:02,380 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-16 23:29:02,380 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-16 23:29:02,380 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-16 23:29:02,614 - Created: 20 parsers.
+INFO  2008-09-16 23:29:02,614 - Velocimacro : initialization starting.
+INFO  2008-09-16 23:29:02,614 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:29:02,645 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:29:02,645 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:29:02,645 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:29:02,661 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:29:02,661 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:02,661 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:29:02,661 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:29:02,661 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:29:02,661 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:29:02,661 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:02,661 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:29:02,661 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-16 23:29:02,661 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-16 23:29:02,661 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-16 23:29:02,661 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-16 23:29:02,661 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-16 23:29:02,661 - Velocimacro : initialization complete.
+INFO  2008-09-16 23:29:02,661 - Velocity successfully started.
+INFO  2008-09-16 23:29:02,801 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:02,801 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,035 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,129 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,160 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,160 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:29:03,223 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:29:03,285 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,301 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,363 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,457 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,457 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:29:03,472 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:29:03,488 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,519 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,535 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,550 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,550 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:29:03,550 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:29:03,550 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:29:03,566 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:15,670 - ************************************************************** 
+INFO  2008-09-16 23:55:15,670 - Starting Jakarta Velocity v1.4
+INFO  2008-09-16 23:55:15,670 - RuntimeInstance initializing.
+INFO  2008-09-16 23:55:15,670 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+INFO  2008-09-16 23:55:15,670 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+INFO  2008-09-16 23:55:15,686 - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+INFO  2008-09-16 23:55:15,686 - FileResourceLoader : initialization starting.
+INFO  2008-09-16 23:55:15,686 - FileResourceLoader : adding path '.'
+INFO  2008-09-16 23:55:15,686 - FileResourceLoader : initialization complete.
+INFO  2008-09-16 23:55:15,686 - Resource Loader Instantiated: org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:15,686 - ClasspathResourceLoader : initialization starting.
+INFO  2008-09-16 23:55:15,686 - ClasspathResourceLoader : initialization complete.
+INFO  2008-09-16 23:55:15,686 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+INFO  2008-09-16 23:55:15,686 - Default ResourceManager initialization complete.
+INFO  2008-09-16 23:55:15,686 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+INFO  2008-09-16 23:55:15,686 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+INFO  2008-09-16 23:55:15,686 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+INFO  2008-09-16 23:55:15,686 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+INFO  2008-09-16 23:55:15,686 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+INFO  2008-09-16 23:55:15,764 - Created: 20 parsers.
+INFO  2008-09-16 23:55:15,764 - Velocimacro : initialization starting.
+INFO  2008-09-16 23:55:15,764 - Velocimacro : adding VMs from VM library template : templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:55:15,998 - Velocimacro : added new VM : #renderEqualsMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:55:15,998 - Velocimacro : added new VM : #renderHashCodeMethod( class attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:55:15,998 - Velocimacro : added new VM : #renderToStringMethod( class className attributeSet ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:55:16,013 - Velocimacro : added new VM : #renderCompareToMethod( class className identifiers ) : source = templates/ejb3/GlobalMacros.vm
+INFO  2008-09-16 23:55:16,013 - ResourceManager : found templates/ejb3/GlobalMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,013 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:55:16,013 - Velocimacro : adding VMs from VM library template : templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:55:16,013 - Velocimacro : added new VM : #remoteJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:55:16,013 - Velocimacro : added new VM : #localJndiName( service includePrefix ) : source = templates/ejb3/common/JNDIMacros.vm
+INFO  2008-09-16 23:55:16,013 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,013 - Velocimacro :  VM library template macro registration complete.
+INFO  2008-09-16 23:55:16,013 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+INFO  2008-09-16 23:55:16,013 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+INFO  2008-09-16 23:55:16,013 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+INFO  2008-09-16 23:55:16,013 - Velocimacro : messages on  : VM system will output logging messages
+INFO  2008-09-16 23:55:16,013 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+INFO  2008-09-16 23:55:16,013 - Velocimacro : initialization complete.
+INFO  2008-09-16 23:55:16,013 - Velocity successfully started.
+INFO  2008-09-16 23:55:16,154 - ResourceManager : found templates/ejb3/EntityEmbeddable.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,154 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,450 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,575 - ResourceManager : found templates/ejb3/config/persistence.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,606 - ResourceManager : found templates/ejb3/DaoLocal.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,606 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:55:16,669 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoLocal.vsl [line 16, column 1]
+INFO  2008-09-16 23:55:16,747 - ResourceManager : found templates/ejb3/DaoBase.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,747 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,825 - ResourceManager : found templates/ejb3/Globals.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,903 - ResourceManager : found templates/ejb3/DaoImpl.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,903 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:55:16,918 - RHS of #set statement is null. Context will not be modified. templates/ejb3/DaoImpl.vsl [line 18, column 1]
+INFO  2008-09-16 23:55:16,934 - ResourceManager : found templates/ejb3/DaoDefaultException.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,965 - ResourceManager : found templates/ejb3/config/ejb-jar.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:16,996 - ResourceManager : found templates/ejb3/config/jboss/jboss.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:17,012 - ResourceManager : found templates/ejb3/config/jboss/components.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:17,012 - Velocimacro : VM addition rejected : remoteJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:55:17,012 - Velocimacro : VM addition rejected : localJndiName : inline not allowed to replace existing VM
+INFO  2008-09-16 23:55:17,012 - ResourceManager : found templates/ejb3/common/JNDIMacros.vm with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
+INFO  2008-09-16 23:55:17,027 - ResourceManager : found templates/ejb3/test/testng.xml.vsl with loader org.andromda.templateengines.velocity.ClasspathResourceLoader
